@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Meta Data & Title -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Eslam Emad | Front End Developer" />
+    <title>Eslam Emad</title>
+    <!-- Css Stylesheets -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Normalize Css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Font Family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Portfolio Header -->
+    <header>
+      <div class="container">
+        <nav>
+          <a href="#hero" class="logo">Eslam</a>
+          <input type="checkbox" name="nav-toggle" id="nav-toggle" />
+          <label for="nav-toggle">
+            <div class="menu-btn">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </label>
+          <ul class="nav-links">
+            <!-- <li><a href="#home" id="">Home</a></li> -->
+            <li><a href="#about" id="">About</a></li>
+            <li><a href="#skills" id="">Skills</a></li>
+            <li><a href="#projects" id="">Projects</a></li>
+            <li><a href="#services" id="">Services</a></li>
+            <li><a href="#contact" id="">Contact Us</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- Portfolio Main -->
+    <main>
+      <!-- Hero Section -->
+      <section class="hero" id="hero">
+        <div class="container">
+          <div class="hero-content">
+            <h1 class="hero-title">I'm Eslam Emad</h1>
+            <p class="hero-description">
+              Aspiring Front End Developer passionate about creating responsive
+              and interactive web experiences.
+            </p>
+            <a href="#projects" class="btn">View My Work</a>
+          </div>
+        </div>
+      </section>
+      <!-- About Section -->
+      <section class="about" id="about">
+        <div class="container">
+          <h2 class="section-title">About Me</h2>
+          <div class="about-content">
+            <div class="porfile-img">
+              <img src="Images/profile.jpeg" alt="Eslam Emad" />
+            </div>
+            <div class="about-text">
+              <p class="about-description">
+                I'm a self-taught Front End Developer with a passion for
+                crafting beautiful and functional websites. I have experience
+                working with HTML, CSS. I enjoy learning new technologies and
+                continuously improving my skills to create engaging user
+                experiences.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Skills Section -->
+      <section class="skills" id="skills">
+        <div class="container">
+          <h2 class="section-title">Skills</h2>
+          <div class="skills-content">
+            <div class="skill">
+              <i class="fab fa-html5"></i>
+              <h3>HTML5</h3>
+            </div>
+            <div class="skill">
+              <i class="fab fa-css3-alt"></i>
+              <h3>CSS3</h3>
+            </div>
+          </div>
+          <div class="skills-description">
+            <p>
+              Started with HTML & CSS, and currently working on JavaScript and
+              becoming a Front End Developer.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- Projects Section -->
+      <section class="projects" id="projects">
+        <div class="container">
+          <h2 class="section-title">Projects</h2>
+          <div class="projects-content">
+            <div class="project">
+              <div class="project-img">
+                <img src="Images/project.webp" alt="Project 1" />
+              </div>
+              <div class="project-content">
+                <a>Responsive Portfolio Website</a>
+                <p>
+                  A personal portfolio website showcasing my skills, projects,
+                  and contact information. featuring a user-friendly design and
+                  interactive elements.
+                </p>
+              </div>
+            </div>
+            <div class="project">
+              <div class="project-img">
+                <img src="Images/project.webp" alt="Project 2" />
+              </div>
+              <div class="project-content">
+                <a>landing page</a>
+                <p>
+                  A responsive landing page designed to promote a product or
+                  service. Built with HTML and CSS, featuring a clean and modern
+                  design.
+                </p>
+              </div>
+            </div>
+            <div class="project">
+              <div class="project-img">
+                <img src="Images/project.webp" alt="Project 2" />
+              </div>
+              <div class="project-content">
+                <a>dashboard</a>
+                <p>
+                  A responsive dashboard interface for managing data and
+                  analytics. Built with HTML and CSS, featuring a user-friendly
+                  design and interactive elements.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Services Section -->
+      <section class="services" id="services">
+        <div class="container">
+          <h2 class="section-title">Services</h2>
+          <div class="services-content">
+            <div class="service">
+              <i class="fas fa-code"></i>
+              <h3>Web Development</h3>
+              <p>
+                I offer web development services, creating responsive and
+                interactive websites tailored to your needs.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Contact Section -->
+      <section class="contact" id="contact">
+        <div class="container">
+          <h2 class="section-title">Contact Me</h2>
+          <div class="contact-content">
+            <form action="#">
+              <label for="name">Your Name</label>
+              <input type="text" name="name" placeholder="Your Name" required />
+              <label for="email">Your Email</label>
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+              <label for="message">Your Message</label>
+              <textarea
+                name="message"
+                placeholder="Your Message"
+                required
+              ></textarea>
+              <button type="submit" class="btn">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Portfolio Footer -->
+    <footer>
+      <div class="container">
+        <p>&copy; 2026 Eslam Emad. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
