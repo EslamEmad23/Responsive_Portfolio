@@ -93,7 +93,7 @@ header .nav-links {
   position: absolute;
   z-index: 999;
   width: 100%;
-  top: calc(100% + 1px);
+  top: 100%;
   left: 0;
   padding: 0;
   visibility: hidden;
