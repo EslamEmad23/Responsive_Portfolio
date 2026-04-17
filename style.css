@@ -315,7 +315,7 @@ section .section-title {
   flex-direction: column;
   align-items: center;
   gap: 2rem;
-  max-width: 500px;
+  max-width: 380px;
   border: 1px solid var(--accent);
   border-radius: 1rem;
   padding: 2rem;
