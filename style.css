@@ -186,7 +186,9 @@ section .section-title {
 .about .container {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
+  min-height: 70vh;
 }
 .about-content {
   display: flex;
@@ -210,7 +212,9 @@ section .section-title {
 .skills .container {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
+  min-height: 70vh;
   gap: 2rem;
 }
 .skills-content {
@@ -295,7 +299,9 @@ section .section-title {
 .services .container {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
+  min-height: 70vh;
   gap: 2rem;
 }
 .services-content {
