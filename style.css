@@ -11,6 +11,7 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  scroll-margin-top: 60px;
 }
 body {
   background-color: var(--primary);
@@ -55,6 +56,7 @@ header {
   position: sticky;
   z-index: 1000;
   top: 0;
+  height: 60px;
   border-bottom: 1px solid var(--accent);
 }
 header .container {
@@ -103,7 +105,7 @@ header .nav-links {
   transition: all 0.3s ease;
 }
 header .nav-links li {
-  padding: 1.75rem 1rem;
+  padding: 1rem;
   border-bottom: 1px solid var(--accent);
   transition: all 0.3s ease;
 }
@@ -381,6 +383,7 @@ section .section-title {
     background-color: transparent;
   }
   header .nav-links li {
+    padding: 0.25rem 0.75rem;
     border: none;
   }
   header .nav-links li:hover {
