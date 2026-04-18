@@ -252,9 +252,8 @@ section .section-title {
   gap: 2rem;
 }
 .projects-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
   gap: 2rem;
 }
 .project {
@@ -401,15 +400,6 @@ section .section-title {
     background-color: transparent;
     margin-left: 0;
     color: var(--accent-hover);
-  }
-  /* Projects Section */
-  .projects-content {
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-  .project {
-    width: calc(50% - 2%);
-    height: 490px;
   }
   /* Contact Section */
   .contact form {
